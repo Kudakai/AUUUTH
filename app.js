@@ -14,7 +14,7 @@ app.set('view engine', 'ejs');
 
 const dbURI = "mongodb+srv://kudakai:Theansweris43@cluster0.ge6bi.mongodb.net/AuthApp?retryWrites=true&w=majority&appName=Cluster0"
 mongoose.connect(dbURI)
-  .then((result) => app.listen(3500))
+  .then((result) => app.listen(3501))
   .catch((err) => console.log(err));
 
 // routes
